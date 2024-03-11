@@ -5,7 +5,7 @@ We proposed a vessel-based 3DUS-CT/MRI rigid registration for liver tumor ablati
 <p align="center"><img src="1_updated.png" width="700" height="400"> </p>
 
 ## Citation
-If you use this code for your research, please cite our paper:
+If you use this code for your research, please cite our publications:
 ```
 @article{xing20233d,
   title={3D US-CT/MRI registration for percutaneous focal liver tumor ablations},
