@@ -33,6 +33,8 @@ If you use this code for your research, please cite our publications:
 - main.m. This file includes the complete coarse-to-refine registration algorithm to align the 3D US and CT/MRI images. Note that the vessels should be formatted as surface models represented as surface point clouds, and centerlines represented as a bunch of sampled points. [CloudCompare](https://www.danielgm.net/cc/) can be used to extract the surface point clouds, and 3D Slicer is used for extracting [centerlines](https://github.com/vmtk/SlicerExtension-VMTK). Both exported file formats are .txts.
 - Registration_evaluation_TRE/centerlineDistance.m. These two files are used for evaluating the registration accuracy. "ReadRegisteredCenterlineParameters.m" shows you how to read the registered parameters.
 
+***(If you can not download the trained models due to the huge size, please go to file "/vessel_segmentation_nnUNet/dropbox_link.txt". The shared dropbox link is included, you can download that externally.)***
+
 ## Setup
 - Matlab 2023b. We used Matlab 2023b to run the registration algorithm. For Matlab, it is quite flexible, any different versions can also be used to run this code.
 - nnUNet environment. Please follow this [repo](https://github.com/MIC-DKFZ/nnUNet) to configure the environment, which is to use our trained vessel segmentation model.
