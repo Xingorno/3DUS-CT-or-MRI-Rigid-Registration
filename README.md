@@ -40,7 +40,7 @@ If you use this code for your research, please cite our publications:
   publisher={IEEE}
 }
 ```
-## Introduction
+## Description of documents
 - ./vessel_segmentation_nnUNet. The well-trained nnUNet model for segmenting vessels directly from 3D US images. The checkpoint can be directly used, combined with the configured [nnUNet](https://github.com/MIC-DKFZ/nnUNet) enviroment.
 - main.m. This file includes the complete coarse-to-refine registration algorithm to align the 3D US and CT/MRI images. Note that the vessels should be formatted as surface models represented as surface point clouds, and centerlines represented as a bunch of sampled points. [CloudCompare](https://www.danielgm.net/cc/) can be used to extract the surface point clouds, and 3D Slicer is used for extracting [centerlines](https://github.com/vmtk/SlicerExtension-VMTK). Both exported file formats are .txts.
 - Registration_evaluation_TRE/centerlineDistance.m. These two files are used for evaluating the registration accuracy. "ReadRegisteredCenterlineParameters.m" shows you how to read the registered parameters.
