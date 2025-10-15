@@ -1,6 +1,6 @@
 
 <div align="center">
-<h1>3DUS-US/MRI Rigid Registration</h1>
+<h1>3D US-US/MRI Rigid Registration</h1>
 <a href="https://xingorno.github.io/3DLIVUS/"><img src="https://img.shields.io/badge/Project-red" alt="Project Page"></a>
 <a href="https://link.springer.com/article/10.1007/s11548-023-02915-0" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Publication-IPCAI2023-green" alt="Publication">
